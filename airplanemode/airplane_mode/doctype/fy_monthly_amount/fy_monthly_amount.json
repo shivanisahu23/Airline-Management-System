@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{fiscal_year}-{month}",
+ "creation": "2025-04-24 09:58:36.029954",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "fiscal_year",
+  "total_amount",
+  "column_break_vfva",
+  "month",
+  "section_break_ygag",
+  "table"
+ ],
+ "fields": [
+  {
+   "fieldname": "fiscal_year",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Fiscal Year",
+   "options": "FY Year"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Int",
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "column_break_vfva",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "label": "Month",
+   "options": "January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "fieldname": "section_break_ygag",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "Table",
+   "options": "Child table"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-28 11:51:50.134930",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "FY Monthly Amount",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

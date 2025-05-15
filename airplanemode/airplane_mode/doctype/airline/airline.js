@@ -1,0 +1,9 @@
+// Copyright (c) 2025, Shivani Sahu and contributors
+// For license information, please see license.txt
+
+// frappe.ui.form.on("Airline", {
+// 	refresh(frm) {
+//         // console.log("Hiii")
+//         // console.log(frappe.datetime.add_months(frappe.datetimem.get_today(), -1))
+// 	},
+// });

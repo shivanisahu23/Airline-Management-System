@@ -1,0 +1,14 @@
+# Copyright (c) 2025, Shivani Sahu and contributors
+# For license information, please see license.txt
+
+import frappe
+from frappe.model.document import Document
+
+class Demo(Document):
+	def before_save(self):
+		doc = frappe.get_doc("Demo")
+		doc.title = "Test"
+		doc.save()
+
+
+

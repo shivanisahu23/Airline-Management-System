@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{fy_name}",
+ "creation": "2025-04-24 11:48:12.222734",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "year_start",
+  "year_end",
+  "fy_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "year_start",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Year Start",
+   "reqd": 1
+  },
+  {
+   "fieldname": "year_end",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Year End",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fy_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FY Name",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-28 11:45:08.346174",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "FY Year",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
